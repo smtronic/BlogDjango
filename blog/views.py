@@ -8,24 +8,31 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.conf import settings
 from django.core.mail import send_mail
 from django.http import HttpRequest
+from taggit.models import Tag
 
 
 # # Create your views here.
-# def post_list(request):
-#     post_list = Post.published.all()
-#     paginator = Paginator(post_list, 3)
-#     page_number = request.GET.get("page", 1)
-#     try:
-#         posts = paginator.page(page_number)
-#     except EmptyPage:
-#         posts = paginator.page(paginator.num_pages)
-#     except PageNotAnInteger:
-#         posts = paginator.page(1)
-#     return render(
-#         request,
-#         "blog/post/list.html",
-#         {"posts": posts},
-#     )
+def post_list(request, tag_slug=None):
+    post_list = Post.published.all()
+
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        post_list = post_list.filter(tags__in=[tag])
+
+    paginator = Paginator(post_list, 3)
+    page_number = request.GET.get("page", 1)
+    try:
+        posts = paginator.page(page_number)
+    except EmptyPage:
+        posts = paginator.page(paginator.num_pages)
+    except PageNotAnInteger:
+        posts = paginator.page(1)
+    return render(
+        request,
+        "blog/post/list.html",
+        {"posts": posts, "tag": tag},
+    )
 
 
 def post_detail(request, year, month, day, post):
