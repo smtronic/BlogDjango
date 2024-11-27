@@ -49,6 +49,21 @@ files = [
 Django = ">=4.1"
 
 [[package]]
+name = "markdown"
+version = "3.7"
+description = "Python implementation of John Gruber's Markdown."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "Markdown-3.7-py3-none-any.whl", hash = "sha256:7eb6df5690b81a1d7942992c97fad2938e956e79df20cbc6186e9c3a77b1c803"},
+    {file = "markdown-3.7.tar.gz", hash = "sha256:2ae2471477cfd02dbbf038d5d9bc226d40def84b4fe2986e49b59b6b472bbed2"},
+]
+
+[package.extras]
+docs = ["mdx-gh-links (>=0.2)", "mkdocs (>=1.5)", "mkdocs-gen-files", "mkdocs-literate-nav", "mkdocs-nature (>=0.6)", "mkdocs-section-index", "mkdocstrings[python]"]
+testing = ["coverage", "pyyaml"]
+
+[[package]]
 name = "sqlparse"
 version = "0.5.2"
 description = "A non-validating SQL parser."
@@ -77,4 +92,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12.7"
-content-hash = "856aa02948f61323ecb94794b8ba2237dd8580f8f814cd694622a4956ab376fc"
+content-hash = "1a09341fae656bac7eec4115cb081b31bf8f91314c6b0e77daae32966a3c93a8"
