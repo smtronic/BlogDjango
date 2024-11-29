@@ -1,0 +1,1083 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-11-14T14:36:03.216Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Мой первый пост",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-11-14T14:50:55.016Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Второй тестовый пост",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-11-14T14:55:00.772Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Второй тестовый пост",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-11-14T14:57:55.092Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-11-25T12:25:23.489Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Почему нетривиально привлечение аудитории?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-11-25T12:27:32.746Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Общественный жизненный цикл продукции: гипотеза и теории",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-11-25T12:52:25.144Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Комплексный имидж в XXI веке",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-11-25T13:03:00.346Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Another post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-11-25T13:03:00.346Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "One more post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-11-25T13:03:00.346Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "New title",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-11-25T13:03:39.452Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Почему правомочен стиль менеджмента?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-11-25T13:04:10.058Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Ретроконверсия национального наследия как баинг и селлинг",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-11-25T13:04:46.533Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Почему обоснован необходимостью принцип восприятия?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-11-25T13:05:43.769Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Креативный метод изучения рынка — актуальная национальная задача",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-11-25T13:06:22.181Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Сублимированный потребительский рынок — актуальная национальная задача",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-11-25T13:06:48.055Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Эмпирический стратегический маркетинг: основные моменты",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-11-25T15:31:35.683Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by test on Креативный метод изучения рынка — актуальная национальная задача",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-11-25T16:32:03.820Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Почему правомочен стиль менеджмента?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-11-25T16:34:33.700Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "menedzhment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"tagged item\", \"object\": \"\\u041a\\u043e\\u043c\\u043f\\u043b\\u0435\\u043a\\u0441\\u043d\\u044b\\u0439 \\u0438\\u043c\\u0438\\u0434\\u0436 \\u0432 XXI \\u0432\\u0435\\u043a\\u0435 tagged with menedzhment\", \"fields\": [\"Object ID\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-11-26T15:04:39.696Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Почему нетривиально привлечение аудитории?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-11-26T15:04:48.768Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Креативный метод изучения рынка — актуальная национальная задача",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-11-27T12:11:02.715Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Markdown post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-11-27T12:12:18.905Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-11-28T14:24:12.118Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "example.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$YHW8vaWY4loN7gHDsHXcgd$6vU0AE3Ho+n5/hJY3nhPgeaQc0LRbviyFF+qbh80eOA=",
+    "last_login": "2024-11-25T12:20:59.980Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-11-14T14:28:50Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ts20wi9aqtmsoth3bgtpofhu2hx6f6h7",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllx_FkvJT1nsNbZDQ4gR4qTCnF3iJQC2jcz76USbWtJW5MlTazOyqjT75ZpeEjdAd-p3mY9zHVdpqx3RR-06evM8rwc7t9BoVa-tetjQADnmTjm6IztvPfsMAgxB4liEVn8CGO2YE0XQgTsASE7y2TU-wPEIjcS:1tFY5L:3RdUk2his3kx3sxbLA76yHUXlS2uCp3PhDtSy79erOw",
+    "expire_date": "2024-12-09T12:20:59.981Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x0qrbn22d6fbvf84stc0mggocqn3i3s2",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllx_FkvJT1nsNbZDQ4gR4qTCnF3iJQC2jcz76USbWtJW5MlTazOyqjT75ZpeEjdAd-p3mY9zHVdpqx3RR-06evM8rwc7t9BoVa-tetjQADnmTjm6IztvPfsMAgxB4liEVn8CGO2YE0XQgTsASE7y2TU-wPEIjcS:1tBat5:93ECE9DFLqrLa3EEWFJiqRk5aqJVI-DhSiyJ9vk6spc",
+    "expire_date": "2024-11-28T14:31:59.849Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Почему нетривиально привлечение аудитории?",
+    "slug": "pochemu-netrivialno-privlechenie-auditorii",
+    "body": "Рекламная поддержка раскручивает комплексный бренд. Идеология выстраивания бренда недостаточно создает диктат потребителя, осознав маркетинг как часть производства. Фокусировка экономит комплексный BTL, осознав маркетинг как часть производства. Инвестиционный продукт тормозит медийный канал.\r\n\r\nПартисипативное планирование подсознательно индуцирует фирменный стиль, повышая конкуренцию. Маркетинговая коммуникация отражает рекламный клаттер. Косвенная реклама изменяет креативный контент.\r\n\r\nКак предсказывают футурологи медиапланирование нетривиально. Продвижение проекта, как принято считать, директивно отталкивает из ряда вон выходящий охват аудитории. Организация практического взаимодействия, суммируя приведенные примеры, экономит потребительский выставочный стенд.",
+    "author": 1,
+    "publish": "2024-11-25T12:21:23Z",
+    "created": "2024-11-25T12:25:23.488Z",
+    "updated": "2024-11-26T15:04:39.692Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Общественный жизненный цикл продукции: гипотеза и теории",
+    "slug": "obshestvennyj-zhiznennyj-cikl-produkcii-gipoteza-i-teorii",
+    "body": "Реферат по маркетингу\r\nТема: «Общественный жизненный цикл продукции: гипотеза и теории»\r\nСтимулирование коммьюнити индуцирует экспериментальный имидж, осознавая социальную ответственность бизнеса. Сегмент рынка последовательно притягивает PR. План размещения специфицирует потребительский рынок, работая над проектом. По мнению ведущих маркетологов, продукт спонтанно специфицирует рейтинг, учитывая результат предыдущих медиа-кампаний. Бренд допускает принцип восприятия.\r\n\r\nАссортиментная политика предприятия разнородно программирует медиамикс. Комплексный анализ ситуации индуцирует конвергентный имидж, полагаясь на инсайдерскую информацию. Еще Траут показал, что концепция маркетинга ускоряет ролевой метод изучения рынка. Контекстная реклама стабилизирует фирменный стиль. Отраслевой стандарт программирует пак-шот.\r\n\r\nТаргетирование стабилизирует анализ зарубежного опыта, осознавая социальную ответственность бизнеса. Правда, специалисты отмечают, что медиа искажает рыночный традиционный канал. Стимулирование сбыта амбивалентно.",
+    "author": 1,
+    "publish": "2024-11-25T12:27:19Z",
+    "created": "2024-11-25T12:27:32.744Z",
+    "updated": "2024-11-25T12:27:32.744Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Комплексный имидж в XXI веке",
+    "slug": "kompleksnyj-imidzh-v-xxi-veke",
+    "body": "Спонсорство синхронизирует жизненный цикл продукции. В общем, нестандартный подход сбалансирован. Психология восприятия рекламы переворачивает стиль менеджмента. Стратегия позиционирования непосредственно концентрирует конвергентный побочный PR-эффект. Тактика выстраивания отношений с коммерсчекими агентами порождает эксклюзивный product placement. Искусство медиапланирования многопланово восстанавливает сублимированный медийный канал, опираясь на опыт западных коллег.\r\n\r\nПовышение жизненных стандартов, суммируя приведенные примеры, спорадически искажает имидж. Потребительская культура индуцирует экспериментальный формирование имиджа. Целевой трафик обуславливает связанный стратегический маркетинг, не считаясь с затратами.\r\n\r\nБизнес-стратегия деятельно усиливает институциональный диктат потребителя. Можно предположить, что маркетинговая активность детерминирует мониторинг активности. Бизнес-план экономит конвергентный комплексный анализ ситуации. Побочный PR-эффект, безусловно, программирует межличностный выставочный стенд. VIP-мероприятие оправдывает коллективный рейтинг. Бизнес-модель, безусловно, многопланово консолидирует социальный статус.",
+    "author": 1,
+    "publish": "2024-11-25T12:49:38Z",
+    "created": "2024-11-25T12:52:25.143Z",
+    "updated": "2024-11-25T12:52:25.143Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Почему правомочен стиль менеджмента?",
+    "slug": "pochemu-pravomochen-stil-menedzhmenta",
+    "body": "Продвижение проекта раскручивает формирование имиджа. Узнавание бренда нейтрализует показ баннера. Нишевый проект парадоксально специфицирует тактический медиаплан. Пресс-клиппинг индуцирует целевой трафик. Адекватная ментальность индуктивно масштабирует побочный PR-эффект.\r\n\r\nПоведенческий таргетинг допускает межличностный CTR, невзирая на действия конкурентов. Согласно ставшей уже классической работе Филипа Котлера, позиционирование на рынке недостижимо. Бизнес-план, в рамках сегодняшних воззрений, исключительно стабилизирует анализ зарубежного опыта. Общество потребления синхронизирует потребительский выставочный стенд. Нестандартный подход позитивно стабилизирует эмпирический конкурент, опираясь на опыт западных коллег.\r\n\r\nДиктат потребителя, на первый взгляд, деятельно позиционирует конвергентный пак-шот, используя опыт предыдущих кампаний. А вот по мнению аналитиков контент нетривиален. Интеграция спонтанно продуцирует клиентский спрос. Не факт, что программа лояльности естественно ускоряет ролевой контент.",
+    "author": 1,
+    "publish": "2024-11-25T13:03:06Z",
+    "created": "2024-11-25T13:03:39.451Z",
+    "updated": "2024-11-25T16:32:03.815Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Ретроконверсия национального наследия как баинг и селлинг",
+    "slug": "retrokonversiya-nacionalnogo-naslediya-kak-baing-i-selling",
+    "body": "Такое понимание ситуации восходит к Эл Райс, при этом позиционирование на рынке конструктивно. Рекламная кампания все еще интересна для многих. Стимулирование сбыта не критично. Ребрендинг, как следует из вышесказанного, не так уж очевиден. Нишевый проект концентрирует традиционный канал. Комплексный анализ ситуации стремительно транслирует метод изучения рынка, опираясь на опыт западных коллег.\r\n\r\nПотребление оправдывает принцип восприятия, признавая определенные рыночные тенденции. В соответствии с законом Ципфа, привлечение аудитории программирует популярный принцип восприятия. Практика однозначно показывает, что партисипативное планирование специфицирует ролевой опрос. Спонсорство недостижимо. Целевой сегмент рынка без оглядки на авторитеты естественно продуцирует бюджет на размещение.\r\n\r\nЦелевой сегмент рынка, как принято считать, позитивно отражает product placement. SWOT-анализ детерминирует повторный контакт. Исходя из структуры пирамиды Маслоу, воздействие на потребителя ускоряет конструктивный мониторинг активности. BTL экономит эмпирический бюджет на размещение, не считаясь с затратами.",
+    "author": 1,
+    "publish": "2024-11-25T13:03:41Z",
+    "created": "2024-11-25T13:04:10.058Z",
+    "updated": "2024-11-25T13:04:10.058Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Почему обоснован необходимостью принцип восприятия?",
+    "slug": "pochemu-obosnovan-neobhodimostyu-princip-vospriyatiya",
+    "body": "Лидерство в продажах, вопреки мнению П.Друкера, традиционно концентрирует эксклюзивный анализ зарубежного опыта. Не факт, что взаимодействие корпорации и клиента непосредственно индуцирует связанный рекламный клаттер. Служба маркетинга компании экономит стратегический рыночный план. Партисипативное планирование раскручивает формирование имиджа. Спонсорство, анализируя результаты рекламной кампании, переворачивает план размещения. Пак-шот непосредственно упорядочивает конструктивный целевой трафик.\r\n\r\nСлужба маркетинга компании индуцирует SWOT-анализ. Потребление наиболее полно экономит бизнес-план. Особенность рекламы, следовательно, уравновешивает охват аудитории. Целевой сегмент рынка без оглядки на авторитеты решительно упорядочивает креативный департамент маркетинга и продаж.\r\n\r\nРекламная заставка без оглядки на авторитеты восстанавливает конвергентный охват аудитории. Информационная связь с потребителем обуславливает сегмент рынка. Рыночная информация, в рамках сегодняшних воззрений, нейтрализует конструктивный SWOT-анализ. Эластичность спроса, безусловно, тормозит анализ рыночных цен.",
+    "author": 1,
+    "publish": "2024-11-25T13:04:16Z",
+    "created": "2024-11-25T13:04:46.532Z",
+    "updated": "2024-11-25T13:04:46.532Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "Креативный метод изучения рынка — актуальная национальная задача",
+    "slug": "kreativnyj-metod-izucheniya-rynka-aktualnaya-nacionalnaya-zadacha",
+    "body": "Стиль менеджмента по-прежнему устойчив к изменениям спроса. Имидж парадоксально оправдывает социальный статус. Надо сказать, что стратегическое планирование изменяет бизнес-план.\r\n\r\nСпонсорство существенно поддерживает фирменный мониторинг активности. Взаимодействие корпорации и клиента, пренебрегая деталями, неестественно масштабирует повторный контакт, учитывая современные тенденции. Рекламный бриф создает социометрический рекламный макет. Позиционирование на рынке, не меняя концепции, изложенной выше, достижимо в разумные сроки. Маркетинговая коммуникация переворачивает креатив, признавая определенные рыночные тенденции.\r\n\r\nПоведенческий таргетинг, не меняя концепции, изложенной выше, транслирует потребительский рынок. Маркетингово-ориентированное издание, не меняя концепции, изложенной выше, поразительно. Анализ зарубежного опыта обоснован необходимостью. Интересно отметить, что ценовая стратегия детерминирует целевой трафик.",
+    "author": 1,
+    "publish": "2024-11-25T13:04:54Z",
+    "created": "2024-11-25T13:05:43.769Z",
+    "updated": "2024-11-26T15:04:48.766Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "title": "Сублимированный потребительский рынок — актуальная национальная задача",
+    "slug": "sublimirovannyj-potrebitelskij-rynok-aktualnaya-nacionalnaya-zadacha",
+    "body": "Маркетингово-ориентированное издание сознательно развивает фирменный стиль, полагаясь на инсайдерскую информацию. Производство нетривиально. Селекция бренда восстанавливает потребительский рынок, учитывая современные тенденции.\r\n\r\nCTR притягивает обществвенный рейтинг. Рыночная информация непосредственно концентрирует анализ рыночных цен. Стратегия позиционирования, безусловно, оправдывает коллективный бюджет на размещение. Воздействие на потребителя, анализируя результаты рекламной кампании, синхронизирует принцип восприятия, повышая конкуренцию. Надо сказать, что имидж порождает коллективный рекламный бриф.\r\n\r\nТакое понимание ситуации восходит к Эл Райс, при этом служба маркетинга компании усиливает показ баннера. Рекламная заставка, конечно, вырождена. Медиа, не меняя концепции, изложенной выше, тормозит межличностный принцип восприятия. Продвижение проекта тормозит метод изучения рынка. Стимулирование коммьюнити неестественно ускоряет популярный нестандартный подход, расширяя долю рынка. Создание приверженного покупателя парадоксально тормозит обществвенный формирование имиджа, опираясь на опыт западных коллег.",
+    "author": 1,
+    "publish": "2024-11-25T13:05:53Z",
+    "created": "2024-11-25T13:06:22.180Z",
+    "updated": "2024-11-25T13:06:22.180Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 13,
+  "fields": {
+    "title": "Эмпирический стратегический маркетинг: основные моменты",
+    "slug": "empiricheskij-strategicheskij-marketing-osnovnye-momenty",
+    "body": "Реферат по маркетингу\r\nТема: «Эмпирический стратегический маркетинг: основные моменты»\r\nРетроконверсия национального наследия индуцирует рекламный макет. Стратегический маркетинг, как следует из вышесказанного, определяет медийный канал. Реклама, отбрасывая подробности, искажает медийный канал, отвоевывая свою долю рынка. Организация слубы маркетинга уравновешивает рыночный фирменный стиль. Искусство медиапланирования специфицирует имидж. Стратегическое планирование, суммируя приведенные примеры, трансформирует охват аудитории, повышая конкуренцию.\r\n\r\nИсходя из структуры пирамиды Маслоу, привлечение аудитории как всегда непредсказуемо. Партисипативное планирование, вопреки мнению П.Друкера, переворачивает принцип восприятия. Процесс стратегического планирования по-прежнему устойчив к изменениям спроса. Общество потребления синхронизирует конструктивный PR. Повышение жизненных стандартов экономит CTR, повышая конкуренцию.\r\n\r\nПотребление, отбрасывая подробности, переворачивает связанный рекламоноситель. Согласно предыдущему, взаимодействие корпорации и клиента синхронизирует анализ рыночных цен, отвоевывая рыночный сегмент. Производство развивает потребительский пресс-клиппинг. Рыночная ситуация концентрирует социометрический показ баннера.",
+    "author": 1,
+    "publish": "2024-11-25T13:06:32Z",
+    "created": "2024-11-25T13:06:48.054Z",
+    "updated": "2024-11-25T13:06:48.054Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 14,
+  "fields": {
+    "title": "Markdown post",
+    "slug": "markdown-post",
+    "body": "This is a post formatted with markdown\r\n\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n\r\n* Two\r\n\r\n* Three\r\n\r\n \r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "author": 1,
+    "publish": "2024-11-27T12:10:34Z",
+    "created": "2024-11-27T12:11:02.709Z",
+    "updated": "2024-11-27T12:12:18.904Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 11,
+    "name": "test",
+    "email": "test@test.ru",
+    "body": "проверка комментариев",
+    "created": "2024-11-25T15:29:06.574Z",
+    "updated": "2024-11-25",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 11,
+    "name": "test",
+    "email": "test@test.ru",
+    "body": "последний коммент",
+    "created": "2024-11-25T15:29:53.829Z",
+    "updated": "2024-11-25",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "menedzhment",
+    "slug": "menedzhment"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "projects",
+    "slug": "projects"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "privlechenie",
+    "slug": "privlechenie"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 14
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+}
+]
