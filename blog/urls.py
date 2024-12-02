@@ -26,4 +26,9 @@ urlpatterns = [
         views.post_comment,
         name="post_comment",
     ),
+    path(
+        "search/",
+        views.post_search,
+        name="post_search",
+    ),
 ]
