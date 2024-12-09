@@ -151,3 +151,6 @@ EMAIL_USE_SSL = False
 
 LOGIN_REDIRECT_URL = "/"
 SESSION_COOKIE_AGE = 30
+LOGIN_URL = "/accounts/login/"
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"

@@ -1,11 +1,11 @@
-from django.http import HttpRequest
-from django.http.response import HttpResponse as HttpResponse
-from .forms import SignUpForm, LoginForm
+from .forms import SignUpForm, LoginForm, UpdateUserForm, UpdateProfileForm
 from django.urls import reverse_lazy
 from django.views import generic
 from django.shortcuts import redirect, render
 from django.contrib import messages
-from django.contrib.auth.views import LoginView
+from django.contrib.auth.views import LoginView, PasswordChangeView
+from django.contrib.auth.decorators import login_required
+from django.contrib.messages.views import SuccessMessageMixin
 
 
 class SignUpView(generic.CreateView):
@@ -14,7 +14,7 @@ class SignUpView(generic.CreateView):
     initial = None  # принимает {'key': 'value'}
     template_name = "registration/signup.html"
 
-    def dispatch(self, request: HttpRequest, *args, **kwargs):
+    def dispatch(self, request, *args, **kwargs):
         if request.user.is_authenticated:
             return redirect("/")
 
@@ -56,3 +56,33 @@ class CustomLoginView(LoginView):
             self.request.session.modified = True
 
         return super(CustomLoginView, self).form_valid(form)
+
+
+@login_required
+def profile(request):
+    if request.method == "POST":
+        user_form = UpdateUserForm(request.POST, instance=request.user)
+        profile_form = UpdateProfileForm(
+            request.POST, request.FILES, instance=request.user.profile
+        )
+
+        if user_form.is_valid() and profile_form.is_valid():
+            user_form.save()
+            profile_form.save()
+            messages.success(request, "Your profile is updated successfully")
+            return redirect("users-profile")
+    else:
+        user_form = UpdateUserForm(instance=request.user)
+        profile_form = UpdateProfileForm(instance=request.user.profile)
+
+    return render(
+        request,
+        "registration/profile.html",
+        {"user_form": user_form, "profile_form": profile_form},
+    )
+
+
+class ChangePasswordView(SuccessMessageMixin, PasswordChangeView):
+    template_name = "registration/change_password.html"
+    success_message = "Successfully Changed Your Password"
+    success_url = reverse_lazy("users-profile")
