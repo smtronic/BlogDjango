@@ -30,8 +30,10 @@ SECRET_KEY = "django-insecure-z!s2$g(##y0s_8xnrxi=be8nhx(xly!0j^nc1*)_rtxfg%qx77
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    "localhost",
+    "0.0.0.0",
+]
 SITE_ID = 1
 # Application definition
 
@@ -48,6 +50,7 @@ INSTALLED_APPS = [
     "django.contrib.sitemaps",
     "django.contrib.postgres",
     "accounts.apps.AccountsConfig",
+    "social_django",
 ]
 
 MIDDLEWARE = [
@@ -73,6 +76,8 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "social_django.context_processors.backends",
+                "social_django.context_processors.login_redirect",
             ],
         },
     },
@@ -150,7 +155,21 @@ EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 
 LOGIN_REDIRECT_URL = "/"
-SESSION_COOKIE_AGE = 30
+SESSION_COOKIE_AGE = 3600
 LOGIN_URL = "/accounts/login/"
 MEDIA_ROOT = BASE_DIR / "media"
 MEDIA_URL = "/media/"
+
+AUTHENTICATION_BACKENDS = [
+    "social_core.backends.google.GoogleOAuth2",
+    "social_core.backends.vk.VKOAuth2",
+    "django.contrib.auth.backends.ModelBackend",  # Для стандартной авторизации
+]
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = os.getenv("SOCIAL_AUTH_GOOGLE_OAUTH2_KEY")
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.getenv("SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET")
+SOCIAL_AUTH_VK_OAUTH2_KEY = os.getenv("SOCIAL_AUTH_VK_OAUTH2_KEY")
+SOCIAL_AUTH_VK_OAUTH2_SECRET = os.getenv("SOCIAL_AUTH_VK_OAUTH2_SECRET")
+SOCIAL_AUTH_VK_OAUTH2_SCOPE = ["email"]
+SOCIAL_AUTH_LOGIN_REDIRECT_URL = "/"
+SOCIAL_AUTH_VK_OAUTH2_REDIRECT_URI = "http://localhost/oauth/complete/vk-oauth2/"
