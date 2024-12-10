@@ -78,7 +78,10 @@ def profile(request):
     return render(
         request,
         "registration/profile.html",
-        {"user_form": user_form, "profile_form": profile_form},
+        {
+            "user_form": user_form,
+            "profile_form": profile_form,
+        },
     )
 
 
