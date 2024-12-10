@@ -30,10 +30,7 @@ SECRET_KEY = "django-insecure-z!s2$g(##y0s_8xnrxi=be8nhx(xly!0j^nc1*)_rtxfg%qx77
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "localhost",
-    "0.0.0.0",
-]
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
 SITE_ID = 1
 # Application definition
 
@@ -51,6 +48,7 @@ INSTALLED_APPS = [
     "django.contrib.postgres",
     "accounts.apps.AccountsConfig",
     "social_django",
+    "django_bootstrap5",
 ]
 
 MIDDLEWARE = [
