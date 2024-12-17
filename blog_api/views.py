@@ -11,6 +11,8 @@ from blog.models import Post
 from .serializers import PostSerializer
 from blog_api import serializers
 
+from django_filters.rest_framework import DjangoFilterBackend
+
 
 class UserPostList(generics.ListAPIView):
     serializer_class = PostSerializer
@@ -23,6 +25,8 @@ class UserPostList(generics.ListAPIView):
 class PostList(generics.ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ["author"]
 
     # def get_queryset(self):
     #     user = self.request.user
