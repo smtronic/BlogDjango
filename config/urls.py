@@ -28,6 +28,7 @@ sitemaps = {
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("api/v1/", include("blog_api.urls")),
     path("", include("blog.urls", namespace="blog")),
     path(
         "sitemap.xml",

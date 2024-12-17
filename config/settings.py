@@ -49,7 +49,15 @@ INSTALLED_APPS = [
     "accounts.apps.AccountsConfig",
     "social_django",
     "django_bootstrap5",
+    "rest_framework",
+    "blog_api.apps.BlogApiConfig",
 ]
+
+REST_FRAMEWORK = {
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.AllowAny",
+    ],
+}
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -152,7 +160,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 
-LOGIN_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/"
 SESSION_COOKIE_AGE = 3600
 LOGIN_URL = "/accounts/login/"
 MEDIA_ROOT = BASE_DIR / "media"
@@ -171,3 +179,6 @@ SOCIAL_AUTH_VK_OAUTH2_SECRET = os.getenv("SOCIAL_AUTH_VK_OAUTH2_SECRET")
 SOCIAL_AUTH_VK_OAUTH2_SCOPE = ["email"]
 SOCIAL_AUTH_LOGIN_REDIRECT_URL = "/"
 SOCIAL_AUTH_VK_OAUTH2_REDIRECT_URI = "http://localhost/oauth/complete/vk-oauth2/"
+SOCIAL_AUTH_GOOGLE_OAUTH2_REDIRECT_URI = (
+    "http://localhost/oauth/complete/google-oauth2/"
+)
