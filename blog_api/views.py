@@ -8,13 +8,16 @@ from rest_framework.response import Response
 from rest_framework import status, generics
 
 from blog.models import Post
+from .permissions import IsAuthorReadOrOnly
 from .serializers import PostSerializer
 from blog_api import serializers
 
 from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import permissions
 
 
 class UserPostList(generics.ListAPIView):
+    # permission_classes = [permissions.IsAuthenticated]
     serializer_class = PostSerializer
 
     def get_queryset(self):
@@ -23,6 +26,7 @@ class UserPostList(generics.ListAPIView):
 
 
 class PostList(generics.ListCreateAPIView):
+    permission_classes = (IsAuthorReadOrOnly,)
     queryset = Post.objects.all()
     serializer_class = PostSerializer
     filter_backends = [DjangoFilterBackend]
@@ -34,8 +38,10 @@ class PostList(generics.ListCreateAPIView):
 
 
 class PostDetail(generics.RetrieveUpdateDestroyAPIView):
+    permission_classes = (IsAuthorReadOrOnly,)
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+    # permission_classes = (permissions.IsAdminUser,)
 
 
 # class PostList(APIView):
