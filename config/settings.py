@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "blog_api.apps.BlogApiConfig",
     "django_filters",
+    "rest_framework.authtoken",
 ]
 
 REST_FRAMEWORK = {
@@ -65,6 +66,7 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         # "rest_framework.authentication.BasicAuthentication",
         "rest_framework.authentication.SessionAuthentication",
+        "rest_framework.authentication.TokenAuthentication",
     ),
     "PAGE_SIZE": 3,  # new
 }
