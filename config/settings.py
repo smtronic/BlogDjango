@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     "blog_api.apps.BlogApiConfig",
     "django_filters",
     "rest_framework.authtoken",
+    "drf_spectacular",
 ]
 
 REST_FRAMEWORK = {
@@ -69,6 +70,7 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.TokenAuthentication",
     ),
     "PAGE_SIZE": 3,  # new
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",  # new
 }
 
 MIDDLEWARE = [
@@ -194,3 +196,10 @@ SOCIAL_AUTH_VK_OAUTH2_REDIRECT_URI = "http://localhost/oauth/complete/vk-oauth2/
 SOCIAL_AUTH_GOOGLE_OAUTH2_REDIRECT_URI = (
     "http://localhost/oauth/complete/google-oauth2/"
 )
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Blog API Project",
+    "DESCRIPTION": "A sample blog to learn about DRF",
+    "VERSION": "1.0.0",
+    # OTHER SETTINGS
+}
