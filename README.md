@@ -24,11 +24,14 @@ A modern Django-based blog application with social authentication, REST API, and
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/smtronic/BlogDjango
    cd BlogDjango
    ```
 2. **Copy and edit the .env file:**
-   Make sure to set your secrets and social auth keys.
+   ```bash
+   cp .env.example .env
+   # Then edit .env and set your secrets and social auth keys
+   ```
 3. **First run (build images and start containers):**
    ```bash
    make up_firstrun

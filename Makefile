@@ -94,7 +94,6 @@ restore:
 
 clean:
 	$(COMPOSE) down -v
-	rm -rf ./initdb/*.sql || true
 	@echo "Project cleaned: containers, networks, and volumes removed."
 
 resetdb:
