@@ -47,6 +47,11 @@ up_console_logs:
 	$(COMPOSE) up
 	@echo "Application is running at http://localhost:8000"
 
+up_firstrun:
+	$(COMPOSE) build
+	$(COMPOSE) up -d
+	@echo "Containers built and started. Application is running at http://localhost:8000"
+
 down:
 	$(COMPOSE) down
 	@echo "Containers stopped and removed."

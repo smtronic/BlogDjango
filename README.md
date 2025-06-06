@@ -27,7 +27,11 @@ A modern Django-based blog application with social authentication, REST API, and
    ```
 2. **Copy and edit the .env file:**
    Make sure to set your secrets and social auth keys.
-3. **Build and start the containers:**
+3. **First run (build images and start containers):**
+   ```bash
+   make up_firstrun
+   ```
+   For subsequent runs, you can use:
    ```bash
    make up
    # or for logs in console
