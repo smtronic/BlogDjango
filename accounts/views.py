@@ -85,6 +85,14 @@ def profile(request):
     )
 
 
+from django.shortcuts import render
+
+
+def social_auth_error(request):
+    error = request.GET.get("error", "Ошибка авторизации через социальную сеть.")
+    return render(request, "registration/social_auth_error.html", {"error": error})
+
+
 class ChangePasswordView(SuccessMessageMixin, PasswordChangeView):
     template_name = "registration/change_password.html"
     success_message = "Successfully Changed Your Password"

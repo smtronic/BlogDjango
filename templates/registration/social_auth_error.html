@@ -1,0 +1,14 @@
+{% extends "blog/base.html" %}
+
+{% block title %}Ошибка авторизации{% endblock %}
+
+{% block content %}
+    <div class="container d-flex align-items-center justify-content-center mt-5">
+        <div class="alert alert-danger w-50 text-center" role="alert">
+            <h4 class="alert-heading">Ошибка авторизации</h4>
+            <p>{{ error }}</p>
+            <hr>
+            <a href="{% url 'login' %}" class="btn btn-primary">Назад к входу</a>
+        </div>
+    </div>
+{% endblock %}

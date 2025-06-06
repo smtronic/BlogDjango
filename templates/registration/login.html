@@ -3,8 +3,12 @@
 {% block content %}
     <h2> Login </h2>
     <a href="{% url 'signup' %}"  class="btn btn-link btn-lg active btn-block">SignUp</a>
-    <a href="{% url 'social:begin' 'google-oauth2' %}" class="btn btn-link btn-lg active btn-block">Log In with Google</a>
-    <a href="{% url 'social:begin' 'vk-oauth2' %}"  class="btn btn-link btn-lg active btn-block"> Login in with VK</a>
+    {% if google_oauth_enabled %}
+        <a href="{% url 'social:begin' 'google-oauth2' %}" class="btn btn-link btn-lg active btn-block">Log In with Google</a>
+    {% endif %}
+    {% if vk_oauth_enabled %}
+        <a href="{% url 'social:begin' 'vk-oauth2' %}"  class="btn btn-link btn-lg active btn-block"> Login in with VK</a>
+    {% endif %}
     <form method="post" class="form">
         {{ form.username }}
         {{ form.password }}

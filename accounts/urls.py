@@ -1,5 +1,11 @@
 from django.urls import path
-from .views import SignUpView, CustomLoginView, profile, ChangePasswordView
+from .views import (
+    SignUpView,
+    CustomLoginView,
+    profile,
+    ChangePasswordView,
+    social_auth_error,
+)
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
@@ -21,4 +27,5 @@ urlpatterns = [
     ),
     path("profile/", profile, name="users-profile"),
     path("password_change/", ChangePasswordView.as_view(), name="password_change"),
+    path("social-auth-error/", social_auth_error, name="social_auth_error"),
 ]
