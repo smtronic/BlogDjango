@@ -15,8 +15,10 @@ A modern Django-based blog application with social authentication, REST API, and
 
 ## Requirements
 
-- Docker & Docker Compose
+- Docker & Docker Compose (must be installed and Docker Desktop or Docker Engine must be running)
 - Python 3.12+ (for local development without Docker)
+
+> **Note:** Make sure Docker is running before executing any make or docker-compose commands.
 
 ## Quick Start (with Docker)
 
